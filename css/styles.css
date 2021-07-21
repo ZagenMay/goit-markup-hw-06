@@ -902,10 +902,12 @@ ol {
   border: none;
   background-origin: border-box;
   cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
-  outline: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .modal-form-checkbox-label::before {
